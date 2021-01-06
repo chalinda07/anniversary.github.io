@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+header {
+  padding: 40px;
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar a {
+  text-decoration: none;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  font-size: 20px;
+  position: fixed;
+  display: inline;
+  padding-left: 50px;
+}

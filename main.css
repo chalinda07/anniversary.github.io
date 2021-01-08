@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 #bg {
-  background-image: url("../anniversary.github.io/Images/Me.jpeg");
+  background-image: url("../anniversary.github.io/Images/BB1.jpeg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
   padding: 30px 10px;
-  transition: 0.4s;
+  transition: 0.3s;
   position: fixed;
   width: 100%;
   top: 0;

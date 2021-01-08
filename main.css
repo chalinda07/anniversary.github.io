@@ -1,19 +1,64 @@
 html,
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-image: url(../anniversary.github.io/Images/BB1.jpeg);
 }
-header {
-  padding: 40px;
-  background-color: rgba(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.navbar a {
-  text-decoration: none;
-  padding-bottom: 20px;
-  color: whitesmoke;
-  font-size: 20px;
+/*ทำ navbar*/
+#navbar {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2); /* Black w/opacity/see-through */
+  padding: 35px 10px;
+  transition: 0.4s;
   position: fixed;
-  display: inline;
-  padding-left: 50px;
+  width: 100%;
+  top: 0;
+  z-index: 99;
 }
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+  padding-right: 20px;
+}
+/*สำหรับเวลาปรับหน้าจอเล็กลง*/
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+/*จบnavbar*/

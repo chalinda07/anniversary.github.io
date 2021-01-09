@@ -34,6 +34,7 @@ body {
   font-weight: bold;
   transition: 0.4s;
   border-bottom: 0;
+  border-radius: 25px;
 }
 
 #navbar a:hover {

@@ -13,10 +13,11 @@ body {
 }
 .main-banner .banner-content {
   background-image: url(../anniversary.github.io/Images/BB.jpeg);
+  background-origin: ;
   background-size: cover;
-  opacity: 0.5;
   margin: 50px;
   padding-right: 600px;
+  opacity: 0.15;
 }
 
 .main-banner .banner-content .banner-caption {

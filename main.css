@@ -52,7 +52,7 @@ body {
 #navbar-right {
   float: right;
   padding-right: 20px;
-  padding-top: 15px;
+  margin-top: 150px;
 }
 /*สำหรับเวลาปรับหน้าจอเล็กลง*/
 @media screen and (max-width: 580px) {

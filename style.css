@@ -11,14 +11,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-.main-banner .banner-content {
-  background-image: url(../anniversary.github.io/Images/BB.jpeg);
-  background-origin: ;
-  background-size: cover;
-  margin: 50px;
-  padding-right: 600px;
-  opacity: 0.15;
-}
 
 .main-banner .banner-content .banner-caption {
   max-width: auto;
@@ -71,5 +63,11 @@ button:hover {
   color: #fff;
   background-color: rgba(83, 91, 160, 1);
 }
-
+.main-banner .banner-content {
+  background-image: url(../anniversary.github.io/Images/BB.jpeg);
+  background-size: cover;
+  margin: 50px;
+  padding-right: 600px;
+  opacity: 0.15;
+}
 /**/

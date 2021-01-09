@@ -37,12 +37,12 @@ body {
 }
 
 #navbar a:hover {
-  background-color: #ddd;
   color: #ce9645;
   border-bottom: 2px solid #ce9645;
   border-spacing: 50px;
   margin-left: 5px;
   transition: 1s;
+  border-radius: 0;
 }
 
 #navbar a.active {

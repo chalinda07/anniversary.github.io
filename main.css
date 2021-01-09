@@ -1,14 +1,9 @@
 html,
 body {
   margin: 0;
+  background-image: url(../anniversary.github.io/Images/BB1.jpeg);
 }
-#bg {
-  background-image: image("/Images/BB1.jpeg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 /*ทำ navbar*/
 #navbar {
   overflow: hidden;

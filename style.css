@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  background-image: url(../anniversary.github.io/Images/BB1.jpeg);
+  background-image: url(/Images/vido.gif);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 /**/
+
 .main-banner .container-fluid {
   padding-left: 0px;
   padding-right: 0px;

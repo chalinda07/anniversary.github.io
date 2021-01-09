@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <head>
-    <link type="text/css" rel="stylesheet" href="main.css">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
   <title>Happy Anniversary C♥N</title>
 </head>
-  <body>
-      <header>
-        <div class="bg">
-<div id="navbar">
-  <a href="index.html" id="logo"><img src="../anniversary.github.io/Images/ico.jpg "  height="45"    ></a>
-  <div id="navbar-right">
-    <a href="home.html">Home</a>
-    <a href="event.html">Event</a>
-    <a class ="active" href="gallory.html">Gallory</a>
-  </div>
-</div>
+<body>
+  <header>
+    <div class="bghome">
+      <div id="navbar">
+        <a href="index.html" id="logo"><img src="../anniversary.github.io/Images/ico.jpg " height="45"></a>
+      <div id="navbar-right">
+          <a href="home.html">Home</a>
+          <a href="event.html">Event</a>
+          <a class="active" href="gallory.html">Gallory</a>
+        </div>
+      </div>
 
-<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
-  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
-  <p>Scroll down this frame to see the effect!</p>
-</div>
-</div>
-      </header>
+      <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+        <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
+        <p>Scroll down this frame to see the effect!</p>
+      </div>
+    </div>
+  </header>
 
-    <script>
-      // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
-          document.getElementById("navbar").style.padding = "15px 5px";
-        } else {
-          document.getElementById("navbar").style.padding = "25px 10px";
-        }
+  <script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+        document.getElementById("navbar").style.padding = "15px 5px";
+      } else {
+        document.getElementById("navbar").style.padding = "25px 10px";
       }
-      </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>

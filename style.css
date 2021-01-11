@@ -16,12 +16,11 @@ body {
   background-size: cover;
   margin: 50px;
   padding-right: 600px;
-  opacity: 0.98;
 }
 
 .main-banner .banner-content .banner-caption {
   max-width: auto;
-  background-color: rgba(250, 250, 250, 0.95);
+  background-color: rgba(250, 250, 250, 0.9);
   margin: 50px;
   padding: 150px;
 }
